@@ -12,5 +12,5 @@ install:
   - tree
 
 script:
-  - hugo -t hallo
+  - hugo
   - tree
