@@ -4,9 +4,10 @@ install:
   - chmod +x hugo
   - export PATH=$PATH:$PWD
   - hugo version
-  - git clone https://github.com/gohugoio/hugoBasicExample.git
-  - cd hugoBasicExample
-  - git submodule add -f https://github.com/EmielH/hallo-hugo.git themes/hallo
+  #- git clone https://github.com/gohugoio/hugoBasicExample.git
+  - git clone https://github.com/microchipfae/hallo_landing-page.git
+  #- cd hugoBasicExample
+  #- git submodule add -f https://github.com/EmielH/hallo-hugo.git themes/hallo
   - sudo apt-get install -y tree
   - tree
 
