@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+#defaultContentLanguage = "en"
+#defaultContentLanguage = "nl"
+defaultContentLanguage = "fr"
+title = "Example Landing Page: Hallo"
+theme = "hallo"
+
+
+[Author]
+    name = "Hallo"
+
+[params]
+    custom_css = ["site.css"]
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:mail@example.org"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/"
+    [[params.links]]
+        icon = "facebook"
+        title = "Facebook"
+        url = "https://facebook.com/"
+    [[params.links]]
+        icon = "yelp"
+        title = "Yelp"
+        url = "https://yelp.com/"
